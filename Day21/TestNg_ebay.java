@@ -57,7 +57,7 @@ public class TestNg_ebay {
 	 username.sendKeys(Keys.ENTER);
 
 	 WebElement password = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("pass")));
-	 password.sendKeys("Devendra@0018");
+	 password.sendKeys("Devendra@018");
 	 password.sendKeys(Keys.ENTER);
   }
   
