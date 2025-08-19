@@ -1,0 +1,8 @@
+<suite name="ParallelSuite" parallel="methods" thread-count="2">
+    <test name="ParallelTestExecution">
+        <classes>
+            <class name="Testng_package.Task1"/>
+            <class name="Testng_package.Task2"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,20 @@
+
+<suite name="LoginSuite">
+	<test name="valid">
+		<parameter name="username" value="admin" />
+		<parameter name="password" value="admin123" />
+		<classes>
+			<class name="Testng_package.Task3"/>
+		</classes>
+	</test>
+	<test name="invalid">
+		<parameter name="username" value="7981" />
+		<parameter name="password" value="676904" />
+		<classes>
+			<class name="Testng_package.Task3"/>
+		</classes>
+	</test>
+	
+</suite>
+ 
+ 
