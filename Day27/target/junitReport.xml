@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="179.995" tests="13" skipped="0" failures="0" errors="0">
+<testcase classname="validate login page" name="Check for valid and invalid credentials - Example #1.1" time="22.854">
+<system-out><![CDATA[
+Given login page should be open in default browser..........................passed
+When click on username button and enter muktha and Devendra@0018 and click signin button and check fail.passed
+Then login successfully and open home page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate login page" name="Check for valid and invalid credentials - Example #1.2" time="9.506">
+<system-out><![CDATA[
+Given login page should be open in default browser..........................passed
+When click on username button and enter devendra and 676904 and click signin button and check fail.passed
+Then login successfully and open home page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate login page" name="Check for valid and invalid credentials - Example #1.3" time="9.138">
+<system-out><![CDATA[
+Given login page should be open in default browser..........................passed
+When click on username button and enter dvd34 and 455354 and click signin button and check fail.passed
+Then login successfully and open home page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate login page" name="Check for valid and invalid credentials - Example #1.4" time="9.232">
+<system-out><![CDATA[
+Given login page should be open in default browser..........................passed
+When click on username button and enter devendrachowdhary805@gmail.com and Devendra@0018 and click signin button and check success.passed
+Then login successfully and open home page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate search functionality" name="Check for valid and invalid search" time="15.8">
+<system-out><![CDATA[
+Given home page should be open in default browser...........................passed
+When click on search button and perform search..............................passed
+Then results should be shown................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate add to cart functionality" name="Check for add to cart functionality" time="20.346">
+<system-out><![CDATA[
+Given home page should be open in default browser for cart..................passed
+When click on search button and search product and then add to cart.........passed
+Then product should add to cart.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate remove from cart functionality" name="Check for remove from cart functionality" time="22.449">
+<system-out><![CDATA[
+Given home page should be open in default browser for rm cart...............passed
+When click on cart remove product from cart.................................passed
+Then product should removed from cart.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate change name functionality" name="Check for updating name functionality" time="18.701">
+<system-out><![CDATA[
+Given home page should be open in default browser for name change...........passed
+When click on profile and click account and click personal info and click edit username and enter username and save.passed
+Then username should be updated.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate change address functionality" name="Check for updating address functionality" time="18.951">
+<system-out><![CDATA[
+Given home page should be open in default browser for address...............passed
+When click on profile and click account and click address and click shipping addresses and click edit address and enter fields and save.passed
+Then address should be updated..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate category functionality" name="Checking category functionality" time="5.94">
+<system-out><![CDATA[
+Given home page should be open in default browser for cat...................passed
+When click on category and select sub category and click enter..............passed
+Then selected category should be shown......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate product description functionality" name="Checking product descripiton functionality" time="10.566">
+<system-out><![CDATA[
+Given home page should be open in default browser for producr desc..........passed
+When click on search button and perform search and click on product and get the description.passed
+Then product description should printed.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate all categories functionality" name="Checking all categories functionality" time="9.396">
+<system-out><![CDATA[
+Given home page should be open in default browser for all cat...............passed
+When click on all category and select sub category and again click sub category.passed
+Then selected sub category should be shown..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate language change functionality" name="Checking language change functionality" time="6.673">
+<system-out><![CDATA[
+Given home page should be open in default browser for lang..................passed
+When hover on us country flag and click the country.........................passed
+Then language should be shown...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
