@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="95.685" tests="8" skipped="0" failures="0" errors="0">
+<testcase classname="validate login page" name="Check for valid and invalid credentials - Example #1.1" time="11.156">
+<system-out><![CDATA[
+Given login page should be open in default browser..........................passed
+When click on username button and enter 67975 and password..................passed
+And click on signin button check fail.......................................passed
+Then login successfully and open home page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate login page" name="Check for valid and invalid credentials - Example #1.2" time="10.053">
+<system-out><![CDATA[
+Given login page should be open in default browser..........................passed
+When click on username button and enter username and asdf...................passed
+And click on signin button check fail.......................................passed
+Then login successfully and open home page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate login page" name="Check for valid and invalid credentials - Example #1.3" time="10.173">
+<system-out><![CDATA[
+Given login page should be open in default browser..........................passed
+When click on username button and enter smdnfkr3 and ddfma3.................passed
+And click on signin button check fail.......................................passed
+Then login successfully and open home page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validate login page" name="Check for valid and invalid credentials - Example #1.4" time="11.722">
+<system-out><![CDATA[
+Given login page should be open in default browser..........................passed
+When click on username button and enter username and password...............passed
+And click on signin button check success....................................passed
+Then login successfully and open home page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able to search products" name="successful search - Example #1.1" time="11.699">
+<system-out><![CDATA[
+Given home page should be open in default browser...........................passed
+When enter Online Banking and click enter...................................passed
+Then results should be displayed............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able to search products" name="successful search - Example #1.2" time="17.27">
+<system-out><![CDATA[
+Given home page should be open in default browser...........................passed
+When enter Account Activity and click enter.................................passed
+Then results should be displayed............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able to search products" name="successful search - Example #1.3" time="11.561">
+<system-out><![CDATA[
+Given home page should be open in default browser...........................passed
+When enter Transfer Funds and click enter...................................passed
+Then results should be displayed............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able to search products" name="successful search - Example #1.4" time="11.774">
+<system-out><![CDATA[
+Given home page should be open in default browser...........................passed
+When enter My Money and click enter.........................................passed
+Then results should be displayed............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
